@@ -29,7 +29,7 @@ const ContactSection = () => {
           <div 
             className="calendly-inline-widget" 
             data-url="https://calendly.com/teddyfischer/15-minute-intro-with-teddy" 
-            style={{ minWidth: '320px', height: '900px' }}
+            style={{ minWidth: '320px', height: '1200px' }}
           ></div>
         </div>
       </div>
