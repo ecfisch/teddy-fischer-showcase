@@ -19,9 +19,9 @@ const ContactSection = () => {
     <section id="contact" className="section-padding">
       <div className="container max-w-5xl">
         <div className="text-center mb-16">
-          <h2 className="section-title">Get in Touch</h2>
+          <h2 className="section-title">Let's Chat</h2>
           <p className="section-subtitle mx-auto">
-            Interested in working together? Schedule a meeting with me below.
+            Let's connect. I'm open to new opportunities, collaborations, or conversations.
           </p>
         </div>
         

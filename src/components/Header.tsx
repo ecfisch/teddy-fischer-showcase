@@ -25,9 +25,9 @@ const Header = () => {
   const navLinks = [
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
-    { label: 'Portfolio', href: '#portfolio' },
+    { label: 'Work', href: '#portfolio' },
     { label: 'Skills', href: '#skills' },
-    { label: 'Contact', href: '#contact' },
+    { label: "Let's Chat", href: '#contact' },
   ];
 
   return (
@@ -41,7 +41,7 @@ const Header = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#home" className="text-xl font-display font-semibold">
-          Teddy Fischer
+          Edward Fischer
         </a>
 
         {/* Desktop Navigation */}
