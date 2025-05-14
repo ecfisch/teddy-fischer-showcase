@@ -37,9 +37,15 @@ const Hero = () => {
             <div className="mt-8 md:mt-12">
               <p className="text-sm text-muted-foreground mb-3">Proud to have helped build and ship products at</p>
               <div className="flex flex-wrap items-center gap-6">
-                <img src="/lovable-uploads/d5e0225e-62e8-434d-af14-b0faa258e31b.png" alt="LaunchNotes" className="h-8 object-contain" />
-                <img src="/lovable-uploads/b1208600-957f-456e-b638-b19ee429aa6a.png" alt="POWR" className="h-8 object-contain" />
-                <img src="/lovable-uploads/761f7331-6cf0-41c4-b0f5-ff88cdf625a7.png" alt="Smart Sparrow" className="h-8 object-contain" />
+                <div className="bg-white/90 p-2 rounded-md">
+                  <img src="/lovable-uploads/d5e0225e-62e8-434d-af14-b0faa258e31b.png" alt="LaunchNotes" className="h-8 object-contain" />
+                </div>
+                <div className="bg-white/90 p-2 rounded-md">
+                  <img src="/lovable-uploads/b1208600-957f-456e-b638-b19ee429aa6a.png" alt="POWR" className="h-8 object-contain" />
+                </div>
+                <div className="bg-card p-2 rounded-md">
+                  <img src="/lovable-uploads/761f7331-6cf0-41c4-b0f5-ff88cdf625a7.png" alt="Smart Sparrow" className="h-8 object-contain" />
+                </div>
               </div>
             </div>
           </div>

@@ -41,7 +41,6 @@ const AboutSection = () => {
             <div className="space-y-8">
               {workExperience.map((job, index) => (
                 <div key={index} className="relative pl-6 border-l border-primary/30">
-                  <div className="absolute w-3 h-3 bg-accent rounded-full -left-[7px] top-1"></div>
                   <h4 className="font-medium">{job.title}</h4>
                   <p className="text-sm text-muted-foreground mb-1">{job.company}</p>
                   <p className="text-sm">{job.description}</p>
@@ -59,14 +58,12 @@ const AboutSection = () => {
             
             <div className="space-y-4 pl-6 border-l border-primary/30">
               <div className="relative">
-                <div className="absolute w-3 h-3 bg-accent rounded-full -left-[13px] top-1"></div>
                 <p className="mb-3">
                   I earned my BS in Environmental Studies and minored in Medical Anthropology. It's where I learned to think across systems and stay curious about how people behave—skills I use every day in product work.
                 </p>
               </div>
               
               <div className="relative">
-                <div className="absolute w-3 h-3 bg-accent rounded-full -left-[13px] top-1"></div>
                 <p className="mb-3">
                   I've also completed multiple Reforge programs—including Growth Series, Product Strategy, and Product Leadership—which deepened my skills in scaling products, driving strategy, and leading cross-functional teams.
                 </p>
