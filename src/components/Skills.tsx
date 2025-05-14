@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="section-padding bg-secondary/30">
+    <section id="skills" className="section-padding bg-primary/5">
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="section-title">Skills & Expertise</h2>
@@ -15,7 +15,7 @@ const SkillsSection = () => {
         
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className={cn(
-            "bg-white p-8 rounded-xl shadow-sm border",
+            "bg-card/90 p-8 rounded-xl shadow-sm border border-border",
             "animate-slide-up"
           )}>
             <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
@@ -23,7 +23,7 @@ const SkillsSection = () => {
             <ul className="space-y-3">
               {skills[1].skills.map((skill, skillIndex) => (
                 <li key={skillIndex} className="flex items-center">
-                  <div className="mr-3 h-2 w-2 rounded-full bg-primary" />
+                  <div className="mr-3 h-2 w-2 rounded-full bg-accent" />
                   <span>{skill}</span>
                 </li>
               ))}
@@ -31,7 +31,7 @@ const SkillsSection = () => {
           </div>
           
           <div className={cn(
-            "bg-white p-8 rounded-xl shadow-sm border",
+            "bg-card/90 p-8 rounded-xl shadow-sm border border-border",
             "animate-slide-up",
             "[animation-delay:0.1s]"
           )}>
@@ -40,7 +40,7 @@ const SkillsSection = () => {
             <ul className="space-y-3">
               {skills[3].skills.map((skill, skillIndex) => (
                 <li key={skillIndex} className="flex items-center">
-                  <div className="mr-3 h-2 w-2 rounded-full bg-primary" />
+                  <div className="mr-3 h-2 w-2 rounded-full bg-accent" />
                   <span>{skill}</span>
                 </li>
               ))}

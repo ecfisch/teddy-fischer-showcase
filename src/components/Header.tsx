@@ -41,7 +41,7 @@ const Header = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#home" className="text-xl font-display font-semibold">
-          Edward Fischer
+          Edward (Teddy) Fischer
         </a>
 
         {/* Desktop Navigation */}
@@ -55,7 +55,7 @@ const Header = () => {
               {link.label}
             </a>
           ))}
-          <Button asChild>
+          <Button asChild variant="outline">
             <a href="#contact">Get in Touch</a>
           </Button>
         </nav>
@@ -72,7 +72,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-background border-t">
+        <div className="md:hidden bg-card border-t border-border">
           <div className="container py-4 flex flex-col space-y-4">
             {navLinks.map((link, index) => (
               <a 
@@ -86,6 +86,7 @@ const Header = () => {
             ))}
             <Button 
               className="w-full justify-center" 
+              variant="outline"
               asChild
               onClick={() => setMobileMenuOpen(false)}
             >

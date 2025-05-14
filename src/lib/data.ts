@@ -97,19 +97,19 @@ export const workExperience = [
   {
     title: "Product Manager",
     company: "LaunchNotes",
-    period: "2021 - Present",
+    period: "",
     description: "Sole PM, owned product from roadmap to launch across integrations and core features."
   },
   {
     title: "Product Manager",
     company: "POWR",
-    period: "2018 - 2021",
+    period: "",
     description: "Led growth and retention initiatives, improving conversion rates and reducing churn."
   },
   {
     title: "Product Manager",
     company: "Smart Sparrow",
-    period: "2015 - 2018",
+    period: "",
     description: "Managed cross-functional builds, from concept to delivery across product suite."
   }
 ];

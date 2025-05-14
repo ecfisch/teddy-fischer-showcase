@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="grid gap-8 md:gap-16 md:grid-cols-2 items-center">
           <div className="order-2 md:order-1 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight mb-4">
-              Edward <span className="text-primary">Fischer</span>
+              Edward <span className="text-primary">(Teddy)</span> Fischer
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium mb-6 text-muted-foreground">
               Product Manager | B2B SaaS
@@ -37,14 +37,9 @@ const Hero = () => {
             <div className="mt-8 md:mt-12">
               <p className="text-sm text-muted-foreground mb-3">Proud to have helped build and ship products at</p>
               <div className="flex flex-wrap items-center gap-6">
-                {['LaunchNotes', 'POWR', 'Smart Sparrow'].map((company, i) => (
-                  <div key={i} className={cn(
-                    "text-lg md:text-xl font-semibold text-muted-foreground",
-                    i === 0 && "text-primary font-display"
-                  )}>
-                    {company}
-                  </div>
-                ))}
+                <img src="/lovable-uploads/d5e0225e-62e8-434d-af14-b0faa258e31b.png" alt="LaunchNotes" className="h-8 object-contain" />
+                <img src="/lovable-uploads/b1208600-957f-456e-b638-b19ee429aa6a.png" alt="POWR" className="h-8 object-contain" />
+                <img src="/lovable-uploads/761f7331-6cf0-41c4-b0f5-ff88cdf625a7.png" alt="Smart Sparrow" className="h-8 object-contain" />
               </div>
             </div>
           </div>
