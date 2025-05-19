@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { projects } from '@/lib/data';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+// ArrowRight is no longer needed
 import { cn } from '@/lib/utils';
 
 const categories = ['All', ...Array.from(new Set(projects.map(p => p.category)))];
@@ -44,7 +44,7 @@ const PortfolioSection = () => {
             <div 
               key={project.id} 
               className={cn(
-                "bg-white border rounded-xl overflow-hidden shadow-sm card-hover",
+                "bg-card border rounded-xl overflow-hidden shadow-sm card-hover", // Changed background to bg-card for better contrast with title
                 "animate-slide-up",
                 index % 2 === 1 && "[animation-delay:0.2s]"
               )}
@@ -58,7 +58,7 @@ const PortfolioSection = () => {
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold text-background">{project.title}</h3>
+                  <h3 className="text-xl font-semibold text-card-foreground">{project.title}</h3> {/* Ensured text color contrasts with bg-card */}
                   <span className="text-xs bg-secondary px-3 py-1 rounded-full text-secondary-foreground">
                     {project.category}
                   </span>
@@ -76,10 +76,7 @@ const PortfolioSection = () => {
                   ))}
                 </div>
                 
-                <Button variant="ghost" size="sm" className="mt-2 group text-background hover:bg-background/10">
-                  View Details 
-                  <ArrowRight className="ml-1 h-3 w-3 transition-transform group-hover:translate-x-1" />
-                </Button>
+                {/* Removed View Details Button */}
               </div>
             </div>
           ))}

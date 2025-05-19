@@ -20,7 +20,7 @@ export const projects: Project[] = [
     id: "project-1",
     title: "Digests",
     description: "Digests started as a simple question: 'Can we send fewer emails?' It turned into one of our most-loved features.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    image: "/lovable-uploads/6e9fc5c8-341c-4ae4-8ee1-baf3893948b0.png", // Updated image
     category: "Product Feature",
     tools: ["User Research", "Email Design", "Analytics", "Customer Feedback"]
   },
@@ -28,7 +28,7 @@ export const projects: Project[] = [
     id: "project-2",
     title: "Self Serve Reboot",
     description: "We needed growth without sacrificing enterprise deals. The self-serve relaunch found that balance.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "/lovable-uploads/446ad5d0-6a5c-4f7b-af7a-1df429e5f511.png", // Updated image
     category: "Growth",
     tools: ["Pricing Strategy", "User Flows", "A/B Testing", "Onboarding"]
   },
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     id: "project-3",
     title: "Slack Integration",
     description: "The original Slack integration wasn't meeting user needs. By digging deeper, we uncovered a better model—and built something our customers now rely on.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    image: "/lovable-uploads/530fa895-56a6-4ce4-adfb-fba17c825881.png", // Updated image
     category: "Integrations",
     tools: ["API Design", "User Testing", "Slack API", "Workflow Automation"]
   },
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     id: "project-4",
     title: "Loom Integration",
     description: "This started as a marketing initiative—but through smart research and fast iteration, it became one of our most impactful, user-loved features.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "/lovable-uploads/32e1bf22-4851-4a20-a541-bc453d1e5b66.png", // Updated image
     category: "Integrations",
     tools: ["Video Embedding", "API Integration", "Partnership Development", "User Feedback"]
   }
