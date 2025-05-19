@@ -44,7 +44,7 @@ const PortfolioSection = () => {
             <div 
               key={project.id} 
               className={cn(
-                "bg-white border rounded-xl overflow-hidden shadow-sm card-hover", // bg-white implies light card
+                "bg-white border rounded-xl overflow-hidden shadow-sm card-hover",
                 "animate-slide-up",
                 index % 2 === 1 && "[animation-delay:0.2s]"
               )}
@@ -58,8 +58,8 @@ const PortfolioSection = () => {
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold text-slate-800">{project.title}</h3> {/* Changed text color */}
-                  <span className="text-xs bg-secondary px-3 py-1 rounded-full text-secondary-foreground"> {/* Ensured secondary text has good contrast */}
+                  <h3 className="text-xl font-semibold">{project.title}</h3>
+                  <span className="text-xs bg-secondary px-3 py-1 rounded-full">
                     {project.category}
                   </span>
                 </div>
@@ -69,14 +69,14 @@ const PortfolioSection = () => {
                   {project.tools.map((tool, i) => (
                     <span 
                       key={i} 
-                      className="bg-secondary/50 text-xs px-2 py-1 rounded-full text-secondary-foreground" /* Ensured secondary text has good contrast */
+                      className="bg-secondary/50 text-xs px-2 py-1 rounded-full"
                     >
                       {tool}
                     </span>
                   ))}
                 </div>
                 
-                <Button variant="ghost" size="sm" className="mt-2 group text-slate-700 hover:text-slate-900"> {/* Adjusted ghost button text for light bg */}
+                <Button variant="ghost" size="sm" className="mt-2 group">
                   View Details 
                   <ArrowRight className="ml-1 h-3 w-3 transition-transform group-hover:translate-x-1" />
                 </Button>
