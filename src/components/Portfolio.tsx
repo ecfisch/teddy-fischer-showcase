@@ -58,8 +58,8 @@ const PortfolioSection = () => {
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold">{project.title}</h3>
-                  <span className="text-xs bg-secondary px-3 py-1 rounded-full">
+                  <h3 className="text-xl font-semibold text-background">{project.title}</h3>
+                  <span className="text-xs bg-secondary px-3 py-1 rounded-full text-secondary-foreground">
                     {project.category}
                   </span>
                 </div>
@@ -69,14 +69,14 @@ const PortfolioSection = () => {
                   {project.tools.map((tool, i) => (
                     <span 
                       key={i} 
-                      className="bg-secondary/50 text-xs px-2 py-1 rounded-full"
+                      className="bg-secondary/50 text-xs px-2 py-1 rounded-full text-secondary-foreground/80"
                     >
                       {tool}
                     </span>
                   ))}
                 </div>
                 
-                <Button variant="ghost" size="sm" className="mt-2 group">
+                <Button variant="ghost" size="sm" className="mt-2 group text-background hover:bg-background/10">
                   View Details 
                   <ArrowRight className="ml-1 h-3 w-3 transition-transform group-hover:translate-x-1" />
                 </Button>

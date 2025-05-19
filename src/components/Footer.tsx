@@ -1,4 +1,3 @@
-
 import { ArrowUp } from 'lucide-react';
 
 const Footer = () => {
@@ -41,7 +40,7 @@ const Footer = () => {
               <p className="text-sm text-muted-foreground">
                 Connect with me: 
                 <a 
-                  href="https://linkedin.com/in/edwardfischer" 
+                  href="https://www.linkedin.com/in/teddyedwardfischer/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="ml-2 hover:text-primary transition-colors"
@@ -50,7 +49,7 @@ const Footer = () => {
                 </a> 
                 <span className="mx-1">|</span>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/ecfisch" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"

@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -27,7 +26,7 @@ const Header = () => {
     { label: 'About', href: '#about' },
     { label: 'Work', href: '#portfolio' },
     { label: 'Skills', href: '#skills' },
-    { label: "Let's Chat", href: '#contact' },
+    { label: "Let's Chat", href: '#contact' }, // Points to Calendly section
   ];
 
   return (
@@ -56,7 +55,7 @@ const Header = () => {
             </a>
           ))}
           <Button asChild variant="outline">
-            <a href="#contact">Get in Touch</a>
+            <a href="#get-in-touch-form">Get in Touch</a> {/* Updated href */}
           </Button>
         </nav>
 
@@ -90,7 +89,7 @@ const Header = () => {
               asChild
               onClick={() => setMobileMenuOpen(false)}
             >
-              <a href="#contact">Get in Touch</a>
+              <a href="#get-in-touch-form">Get in Touch</a> {/* Updated href */}
             </Button>
           </div>
         </div>
