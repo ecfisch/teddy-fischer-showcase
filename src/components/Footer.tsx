@@ -26,7 +26,7 @@ const Footer = () => {
               className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"
               aria-label="Scroll to top"
             >
-              <ArrowUp size={20} />
+              <ArrowUp size={20} className="text-primary" />
             </button>
           </div>
         </div>
@@ -41,7 +41,7 @@ const Footer = () => {
               <p className="text-sm text-muted-foreground">
                 Connect with me: 
                 <a 
-                  href="https://linkedin.com/in/edwardfischer" 
+                  href="https://www.linkedin.com/in/teddyedwardfischer/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="ml-2 hover:text-primary transition-colors"
@@ -50,7 +50,7 @@ const Footer = () => {
                 </a> 
                 <span className="mx-1">|</span>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/ecfisch" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
@@ -66,7 +66,7 @@ const Footer = () => {
                   ? "#portfolio" 
                   : item === "Let's Chat" 
                     ? "#contact" 
-                    : `#${item.toLowerCase()}`;
+                    : `#${item.toLowerCase().replace(/\s+/g, '-')}`; // ensure IDs are valid
                 
                 return (
                   <a

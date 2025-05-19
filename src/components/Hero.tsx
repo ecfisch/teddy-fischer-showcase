@@ -58,7 +58,7 @@ const Hero = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-2 -right-2 bg-primary text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg">
+              <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-lg">
                 Product Manager
               </div>
             </div>
