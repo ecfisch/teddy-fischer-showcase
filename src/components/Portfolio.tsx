@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { projects } from '@/lib/data';
 import { Button } from '@/components/ui/button';
@@ -44,7 +43,7 @@ const PortfolioSection = () => {
             <div 
               key={project.id} 
               className={cn(
-                "bg-card border rounded-xl overflow-hidden shadow-sm card-hover", // Changed background to bg-card for better contrast with title
+                "bg-card border rounded-xl overflow-hidden shadow-sm card-hover",
                 "animate-slide-up",
                 index % 2 === 1 && "[animation-delay:0.2s]"
               )}
@@ -53,12 +52,12 @@ const PortfolioSection = () => {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-full object-cover transition-transform hover:scale-105"
+                  className="w-full h-full object-cover object-top transition-transform hover:scale-105"
                 />
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold text-card-foreground">{project.title}</h3> {/* Ensured text color contrasts with bg-card */}
+                  <h3 className="text-xl font-semibold text-card-foreground">{project.title}</h3>
                   <span className="text-xs bg-secondary px-3 py-1 rounded-full text-secondary-foreground">
                     {project.category}
                   </span>

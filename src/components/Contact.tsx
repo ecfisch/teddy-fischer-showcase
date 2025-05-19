@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 
 const ContactSection = () => {
@@ -31,7 +30,7 @@ const ContactSection = () => {
           <div 
             className="calendly-inline-widget" 
             data-url="https://calendly.com/teddyfischer/15-minute-intro-with-teddy" 
-            style={{ minWidth: '320px', height: '700px' }} // Adjusted height for Calendly
+            style={{ minWidth: '320px', height: '900px' }} // Adjusted height for Calendly
           ></div>
         </div>
 
@@ -46,7 +45,7 @@ const ContactSection = () => {
           <div className="animate-slide-up [animation-delay:0.2s]">
             <iframe 
               src="https://www.powr.io/form-builder/u/c281a263_1747692392#platform=iframe" 
-              style={{width: '100%', height: '531px'}} // Rounded height
+              style={{width: '100%', height: '531px'}}
               frameBorder="0"
               title="Contact Form"
               className="rounded-lg shadow-lg"
