@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -54,8 +55,8 @@ const Header = () => {
               {link.label}
             </a>
           ))}
-          <Button asChild variant="outline">
-            <a href="#get-in-touch-form">Get in Touch</a> {/* Updated href */}
+          <Button asChild>
+            <a href="#get-in-touch-form">Get in Touch</a>
           </Button>
         </nav>
 
@@ -85,11 +86,10 @@ const Header = () => {
             ))}
             <Button 
               className="w-full justify-center" 
-              variant="outline"
               asChild
               onClick={() => setMobileMenuOpen(false)}
             >
-              <a href="#get-in-touch-form">Get in Touch</a> {/* Updated href */}
+              <a href="#get-in-touch-form">Get in Touch</a>
             </Button>
           </div>
         </div>
