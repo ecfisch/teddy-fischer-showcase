@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ArrowDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const Hero = () => {
@@ -23,12 +22,12 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg">
                 <a href="#portfolio">
-                  Check out my work <ArrowRight className="ml-2 h-4 w-4" />
+                  Check out my work
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <a href="#contact">
-                  Meet with me <ArrowDown className="ml-2 h-4 w-4" />
+                  Meet with me
                 </a>
               </Button>
             </div>
@@ -42,8 +41,8 @@ const Hero = () => {
                 <div className="bg-white/90 p-2 rounded-md">
                   <img src="/b1208600-957f-456e-b638-b19ee429aa6a.png" alt="POWR" className="h-8 object-contain" />
                 </div>
-                <div className="bg-card p-2 rounded-md">
-                  <img src="/761f7331-6cf0-41c4-b0f5-ff88cdf625a7.png" alt="Smart Sparrow" className="h-8 object-contain" />
+                <div className="bg-white/90 p-2 rounded-md">
+                  <img src="/lovable-uploads/4d92c110-1630-48d5-bdcc-acea7239379f.png" alt="Smart Sparrow" className="h-8 object-contain" />
                 </div>
               </div>
             </div>
