@@ -36,13 +36,19 @@ const Hero = () => {
               <p className="text-sm text-muted-foreground mb-3">Proud to have helped build and ship products at</p>
               <div className="flex flex-wrap items-center gap-6">
                 <div className="bg-white/90 p-2 rounded-md">
-                  <img src="/d5e0225e-62e8-434d-af14-b0faa258e31b.png" alt="LaunchNotes" className="h-8 object-contain" />
+                  <a href="https://launchnotes.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="/d5e0225e-62e8-434d-af14-b0faa258e31b.png" alt="LaunchNotes" className="h-8 object-contain" />
+                 </a>
                 </div>
                 <div className="bg-white/90 p-2 rounded-md">
-                  <img src="/b1208600-957f-456e-b638-b19ee429aa6a.png" alt="POWR" className="h-8 object-contain" />
+                  <a href="https://powr.io/" target="_blank" rel="noopener noreferrer">
+                    <img src="/b1208600-957f-456e-b638-b19ee429aa6a.png" alt="POWR" className="h-8 object-contain" />
+                  </a>
                 </div>
                 <div className="bg-white/90 p-2 rounded-md">
-                  <img src="/lovable-uploads/4d92c110-1630-48d5-bdcc-acea7239379f.png" alt="Smart Sparrow" className="h-8 object-contain" />
+                  <a href="https://smartsparrow.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="/lovable-uploads/4d92c110-1630-48d5-bdcc-acea7239379f.png" alt="Smart Sparrow" className="h-8 object-contain" />
+                  </a>
                 </div>
               </div>
             </div>

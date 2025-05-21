@@ -107,10 +107,10 @@ export const workExperience = [
     description: "Led growth and retention initiatives, improving conversion rates and reducing churn."
   },
   {
-    title: "Product Manager",
+    title: "Project Manager",
     company: "Smart Sparrow",
     period: "",
-    description: "Managed cross-functional builds, from concept to delivery across product suite."
+    description: "Managed cross-functional builds, from concept to delivery across client projects."
   }
 ];
 

@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div className="mb-16 text-center">
           <h2 className="section-title">About Me</h2>
           <p className="section-subtitle mx-auto">
-            10+ years in B2B SaaS product roles | Owned features from roadmap to launch | Deep in growth, integrations, AI tools
+            10 years in B2B SaaS product roles | Owned features from discovery to delivery | Deep in growth, integrations, AI tools
           </p>
         </div>
         
