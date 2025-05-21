@@ -110,7 +110,7 @@ export const workExperience = [
     title: "Project Manager",
     company: "Smart Sparrow",
     period: "",
-    description: "Managed cross-functional builds, from concept to delivery across product suite."
+    description: "Managed cross-functional builds, from concept to delivery across client projects."
   }
 ];
 
