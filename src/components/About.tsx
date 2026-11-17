@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div className="mb-16 text-center">
           <h2 className="section-title">About Me</h2>
           <p className="section-subtitle mx-auto">
-            10 years in B2B SaaS product roles | Owned features from discovery to delivery | Deep in growth, integrations, AI tools
+            10+ years in B2B SaaS | Own products from discovery to launch | Now shipping code with AI-native tooling
           </p>
         </div>
         
@@ -25,7 +25,7 @@ const AboutSection = () => {
           <div className="animate-slide-up [animation-delay:0.2s]">
             <h3 className="text-2xl font-display font-semibold mb-4">What I Do</h3>
             <p>
-              I help teams focus on the right problems and build thoughtful solutions—fast enough to learn, solid enough to scale.
+              I help teams focus on the right problems and build thoughtful solutions, fast enough to learn and solid enough to scale. Lately that includes writing the code myself.
             </p>
           </div>
         </div>
@@ -59,13 +59,13 @@ const AboutSection = () => {
             <div className="space-y-4 pl-6 border-l border-primary/30">
               <div className="relative">
                 <p className="mb-3">
-                  I earned my BS in Environmental Studies and minored in Medical Anthropology. It's where I learned to think across systems and stay curious about how people behave—skills I use every day in product work.
+                  I earned my BS in Environmental Studies and minored in Medical Anthropology. It's where I learned to think across systems and stay curious about how people behave, skills I use every day in product work.
                 </p>
               </div>
               
               <div className="relative">
                 <p className="mb-3">
-                  I've also completed multiple Reforge programs—including Growth Series, Product Strategy, and Product Leadership—which deepened my skills in scaling products, driving strategy, and leading cross-functional teams.
+                  I've also completed multiple Reforge programs, including Growth Series, Product Strategy, and Product Leadership, which deepened my skills in scaling products, driving strategy, and leading cross-functional teams.
                 </p>
               </div>
             </div>
