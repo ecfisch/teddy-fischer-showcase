@@ -20,7 +20,7 @@ export const projects: Project[] = [
     id: "project-5",
     title: "Page Vault Review",
     description: "Thorough capture is the right call, but it produces thousands of pages. Review uses AI to surface the pages that matter to a case, then lets legal teams mark, redact, and export them. I owned it from discovery and pricing through launch, and wrote much of the v2 code.",
-    image: "/review-cover.svg", // Abstract cover; swap for a product screenshot when one is cleared for public use
+    image: "/page-vault-review.png",
     category: "AI Product",
     tools: ["Customer Discovery", "Pricing & Packaging", "LLM Features", "Go-to-Market"]
   },
@@ -28,7 +28,7 @@ export const projects: Project[] = [
     id: "project-6",
     title: "Capture Browser Redesign",
     description: "The browser is where customers do their daily work, so we tested prototypes with users before building. Most users switched and stayed, and we retired the legacy browser a few months later.",
-    image: "/browser-redesign-cover.svg", // Abstract cover; swap for a product screenshot when one is cleared for public use
+    image: "/page-vault-browser-redesign.png",
     category: "Product Feature",
     tools: ["Usability Testing", "Prototyping", "Product Analytics", "Migration"]
   },
