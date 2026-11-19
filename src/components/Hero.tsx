@@ -14,10 +14,10 @@ const Hero = () => {
               Edward <span className="text-primary">(Teddy)</span> Fischer
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium mb-6 text-muted-foreground">
-              Product Manager | B2B SaaS
+              Senior Product Manager | B2B SaaS
             </h2>
             <p className="text-lg mb-8 max-w-lg">
-              Integrations, Growth, 0→1 Builds
+              0→1 AI Products, Growth, Integrations
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg">
@@ -35,6 +35,11 @@ const Hero = () => {
             <div className="mt-8 md:mt-12">
               <p className="text-sm text-muted-foreground mb-3">Proud to have helped build and ship products at</p>
               <div className="flex flex-wrap items-center gap-6">
+                <div className="bg-white/90 p-2 rounded-md">
+                  <a href="https://www.page-vault.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="/page-vault-logo.svg" alt="Page Vault" className="h-8 object-contain" />
+                  </a>
+                </div>
                 <div className="bg-white/90 p-2 rounded-md">
                   <a href="https://launchnotes.com/" target="_blank" rel="noopener noreferrer">
                     <img src="/d5e0225e-62e8-434d-af14-b0faa258e31b.png" alt="LaunchNotes" className="h-8 object-contain" />
@@ -63,7 +68,7 @@ const Hero = () => {
                 />
               </div>
               <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-lg">
-                Product Manager
+                Senior Product Manager
               </div>
             </div>
           </div>

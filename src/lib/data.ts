@@ -17,6 +17,22 @@ export interface SkillCategory {
 
 export const projects: Project[] = [
   {
+    id: "project-5",
+    title: "Page Vault Review",
+    description: "Thorough capture is the right call, but it produces thousands of pages. Review uses AI to surface the pages that matter to a case, then lets legal teams mark, redact, and export them. I owned it from discovery and pricing through launch, and wrote much of the v2 code.",
+    image: "/page-vault-review.png",
+    category: "AI Product",
+    tools: ["Customer Discovery", "Pricing & Packaging", "LLM Features", "Go-to-Market"]
+  },
+  {
+    id: "project-6",
+    title: "Capture Browser Redesign",
+    description: "The browser is where customers do their daily work, so we tested prototypes with users before building. Most users switched and stayed, and we retired the legacy browser a few months later.",
+    image: "/page-vault-browser-redesign.png",
+    category: "Product Feature",
+    tools: ["Usability Testing", "Prototyping", "Product Analytics", "Migration"]
+  },
+  {
     id: "project-1",
     title: "Digests",
     description: "Digests started as a simple question: 'Can we send fewer emails?' It turned into one of our most-loved features.",
@@ -35,7 +51,7 @@ export const projects: Project[] = [
   {
     id: "project-3",
     title: "Slack Integration",
-    description: "The original Slack integration wasn't meeting user needs. By digging deeper, we uncovered a better model—and built something our customers now rely on.",
+    description: "The original Slack integration wasn't meeting user needs. By digging deeper, we uncovered a better model and built something our customers now rely on.",
     image: "/530fa895-56a6-4ce4-adfb-fba17c825881.png", // Updated image
     category: "Integrations",
     tools: ["API Design", "User Testing", "Slack API", "Workflow Automation"]
@@ -43,7 +59,7 @@ export const projects: Project[] = [
   {
     id: "project-4",
     title: "Loom Integration",
-    description: "This started as a marketing initiative—but through smart research and fast iteration, it became one of our most impactful, user-loved features.",
+    description: "This started as a marketing initiative, but through smart research and fast iteration, it became one of our most impactful, user-loved features.",
     image: "/32e1bf22-4851-4a20-a541-bc453d1e5b66.png", // Updated image
     category: "Integrations",
     tools: ["Video Embedding", "API Integration", "Partnership Development", "User Feedback"]
@@ -66,9 +82,9 @@ export const skills: SkillCategory[] = [
     skills: [
       "Product Analytics",
       "SQL",
-      "API Design & Integration",
-      "Data Visualization",
-      "AI Prompt Engineering"
+      "AI-Native Development",
+      "LLM Feature Design",
+      "API Design & Integration"
     ]
   },
   {
@@ -85,15 +101,21 @@ export const skills: SkillCategory[] = [
     name: "Leadership",
     skills: [
       "Cross-functional Team Leadership",
+      "Pricing & Packaging",
+      "Launch & GTM Enablement",
       "Stakeholder Management",
-      "Agile/Scrum",
-      "OKR Implementation",
       "Executive Communications"
     ]
   }
 ];
 
 export const workExperience = [
+  {
+    title: "Senior Product Manager",
+    company: "Page Vault",
+    period: "",
+    description: "Own Page Vault Review, an AI evidence review product, from discovery and pricing through launch. I also ship much of the product myself as a hands-on product engineer."
+  },
   {
     title: "Product Manager",
     company: "LaunchNotes",

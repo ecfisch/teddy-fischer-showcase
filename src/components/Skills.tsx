@@ -19,7 +19,7 @@ const SkillsSection = () => {
             "animate-slide-up"
           )}>
             <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
-            <p className="mb-4">SQL, APIs, funnels, AI prompts—you know, product stuff</p>
+            <p className="mb-4">SQL, APIs, funnels, and shipping code with AI. You know, product stuff.</p>
             <ul className="space-y-3">
               {skills[1].skills.map((skill, skillIndex) => (
                 <li key={skillIndex} className="flex items-center">
@@ -36,7 +36,7 @@ const SkillsSection = () => {
             "[animation-delay:0.1s]"
           )}>
             <h3 className="text-xl font-semibold mb-4">Professional Skills</h3>
-            <p className="mb-4">I focus on alignment, clarity, and meaningful outcomes—not just features.</p>
+            <p className="mb-4">I focus on alignment, clarity, and meaningful outcomes, not just features.</p>
             <ul className="space-y-3">
               {skills[3].skills.map((skill, skillIndex) => (
                 <li key={skillIndex} className="flex items-center">

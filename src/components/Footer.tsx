@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div>
             <p className="text-lg font-display font-medium mb-2">Edward (Teddy) Fischer</p>
-            <p className="text-muted-foreground">Product Manager | B2B SaaS</p>
+            <p className="text-muted-foreground">Senior Product Manager | B2B SaaS</p>
           </div>
           
           <div className="mt-6 md:mt-0">
