@@ -36,14 +36,8 @@ const Hero = () => {
               <p className="text-sm text-muted-foreground mb-3">Proud to have helped build and ship products at</p>
               <div className="flex flex-wrap items-center gap-6">
                 <div className="bg-white/90 p-2 rounded-md">
-                  {/* Text wordmark until a Page Vault logo file is added to /public */}
-                  <a
-                    href="https://www.page-vault.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex h-8 items-center px-1 text-base font-semibold tracking-tight text-slate-800"
-                  >
-                    Page Vault
+                  <a href="https://www.page-vault.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="/page-vault-logo.svg" alt="Page Vault" className="h-8 object-contain" />
                   </a>
                 </div>
                 <div className="bg-white/90 p-2 rounded-md">
