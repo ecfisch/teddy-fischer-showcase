@@ -55,7 +55,7 @@ export const projects: Project[] = [
     category: "Growth",
     tools: ["Pricing Strategy", "User Flows", "A/B Testing", "Onboarding"],
     // LaunchNotes has since returned to demo-only sales, so this points at an archived copy.
-    link: "https://web.archive.org/web/20250803232351/https://www.launchnotes.com/free-trial",
+    link: "https://web.archive.org/web/20241211115708/https://www.launchnotes.com/free-trial",
     linkLabel: "See the archived free trial page"
   },
   {
