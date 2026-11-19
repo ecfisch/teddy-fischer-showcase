@@ -82,7 +82,7 @@ const PortfolioSection = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
                   >
-                    Read the announcement
+                    {project.linkLabel ?? 'Read the announcement'}
                     <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
                     <span className="sr-only"> for {project.title} (opens in a new tab)</span>
                   </a>

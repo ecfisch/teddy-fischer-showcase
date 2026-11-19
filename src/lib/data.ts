@@ -10,6 +10,8 @@ export interface Project {
   tools: string[];
   /** Public announcement or changelog post for the project. Cards without one show no link. */
   link?: string;
+  /** Link text for the card. Defaults to "Read the announcement". */
+  linkLabel?: string;
 }
 
 export interface SkillCategory {
@@ -51,7 +53,10 @@ export const projects: Project[] = [
     description: "We needed growth without sacrificing enterprise deals. The self-serve relaunch found that balance.",
     image: "/446ad5d0-6a5c-4f7b-af7a-1df429e5f511.png", // Updated image
     category: "Growth",
-    tools: ["Pricing Strategy", "User Flows", "A/B Testing", "Onboarding"]
+    tools: ["Pricing Strategy", "User Flows", "A/B Testing", "Onboarding"],
+    // LaunchNotes has since returned to demo-only sales, so this points at an archived copy.
+    link: "https://web.archive.org/web/20250803232351/https://www.launchnotes.com/free-trial",
+    linkLabel: "See the archived free trial page"
   },
   {
     id: "project-3",
