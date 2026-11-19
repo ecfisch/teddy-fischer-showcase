@@ -27,7 +27,7 @@ export const projects: Project[] = [
     image: "/page-vault-review.png",
     category: "AI Product",
     tools: ["Customer Discovery", "Pricing & Packaging", "LLM Features", "Go-to-Market"],
-    link: "https://pagevault.canny.io/changelog/the-new-page-vault-review-every-capture-in-your-case-reviewed-for-you"
+    link: "https://changelog.page-vault.com/page-vault/the-new-page-vault-review-every-capture-in-your-case-reviewed-for-you"
   },
   {
     id: "project-6",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     image: "/page-vault-browser-redesign.png",
     category: "Product Feature",
     tools: ["Usability Testing", "Prototyping", "Product Analytics", "Migration"],
-    link: "https://pagevault.canny.io/changelog/a-new-page-vault-browser"
+    link: "https://changelog.page-vault.com/page-vault/a-new-page-vault-browser"
   },
   {
     id: "project-1",
