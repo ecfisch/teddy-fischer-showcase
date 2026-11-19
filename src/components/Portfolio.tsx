@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { projects } from '@/lib/data';
 import { Button } from '@/components/ui/button';
-// ArrowRight is no longer needed
+import { ArrowUpRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const categories = ['All', ...Array.from(new Set(projects.map(p => p.category)))];
@@ -75,7 +75,18 @@ const PortfolioSection = () => {
                   ))}
                 </div>
                 
-                {/* Removed View Details Button */}
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+                  >
+                    Read the announcement
+                    <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+                    <span className="sr-only"> for {project.title} (opens in a new tab)</span>
+                  </a>
+                )}
               </div>
             </div>
           ))}

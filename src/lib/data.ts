@@ -8,6 +8,8 @@ export interface Project {
   image: string;
   category: string;
   tools: string[];
+  /** Public announcement or changelog post for the project. Cards without one show no link. */
+  link?: string;
 }
 
 export interface SkillCategory {
@@ -22,7 +24,8 @@ export const projects: Project[] = [
     description: "Thorough capture is the right call, but it produces thousands of pages. Review uses AI to surface the pages that matter to a case, then lets legal teams mark, redact, and export them. I owned it from discovery and pricing through launch, and wrote much of the v2 code.",
     image: "/page-vault-review.png",
     category: "AI Product",
-    tools: ["Customer Discovery", "Pricing & Packaging", "LLM Features", "Go-to-Market"]
+    tools: ["Customer Discovery", "Pricing & Packaging", "LLM Features", "Go-to-Market"],
+    link: "https://pagevault.canny.io/changelog/the-new-page-vault-review-every-capture-in-your-case-reviewed-for-you"
   },
   {
     id: "project-6",
@@ -30,7 +33,8 @@ export const projects: Project[] = [
     description: "The browser is where customers do their daily work, so we tested prototypes with users before building. Most users switched and stayed, and we retired the legacy browser a few months later.",
     image: "/page-vault-browser-redesign.png",
     category: "Product Feature",
-    tools: ["Usability Testing", "Prototyping", "Product Analytics", "Migration"]
+    tools: ["Usability Testing", "Prototyping", "Product Analytics", "Migration"],
+    link: "https://pagevault.canny.io/changelog/a-new-page-vault-browser"
   },
   {
     id: "project-1",
@@ -38,7 +42,8 @@ export const projects: Project[] = [
     description: "Digests started as a simple question: 'Can we send fewer emails?' It turned into one of our most-loved features.",
     image: "/6e9fc5c8-341c-4ae4-8ee1-baf3893948b0.png", // Updated image
     category: "Product Feature",
-    tools: ["User Research", "Email Design", "Analytics", "Customer Feedback"]
+    tools: ["User Research", "Email Design", "Analytics", "Customer Feedback"],
+    link: "https://updates.launchnotes.com/announcements/digests-for-enhanced-product-communications"
   },
   {
     id: "project-2",
@@ -54,7 +59,8 @@ export const projects: Project[] = [
     description: "The original Slack integration wasn't meeting user needs. By digging deeper, we uncovered a better model and built something our customers now rely on.",
     image: "/530fa895-56a6-4ce4-adfb-fba17c825881.png", // Updated image
     category: "Integrations",
-    tools: ["API Design", "User Testing", "Slack API", "Workflow Automation"]
+    tools: ["API Design", "User Testing", "Slack API", "Workflow Automation"],
+    link: "https://updates.launchnotes.com/announcements/introducing-our-new-slack-channel-integration"
   },
   {
     id: "project-4",
@@ -62,7 +68,8 @@ export const projects: Project[] = [
     description: "This started as a marketing initiative, but through smart research and fast iteration, it became one of our most impactful, user-loved features.",
     image: "/32e1bf22-4851-4a20-a541-bc453d1e5b66.png", // Updated image
     category: "Integrations",
-    tools: ["Video Embedding", "API Integration", "Partnership Development", "User Feedback"]
+    tools: ["Video Embedding", "API Integration", "Partnership Development", "User Feedback"],
+    link: "https://updates.launchnotes.com/announcements/introducing-the-loom-integration-for-announcements"
   }
 ];
 
