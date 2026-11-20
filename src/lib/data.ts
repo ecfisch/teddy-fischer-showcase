@@ -8,9 +8,9 @@ export interface Project {
   image: string;
   category: string;
   tools: string[];
-  /** Public announcement or changelog post for the project. Cards without one show no link. */
+  /** Public announcement or changelog post for the project. The whole card links to it. */
   link?: string;
-  /** Link text for the card. Defaults to "Read the announcement". */
+  /** What the link is, read out by screen readers. Defaults to "Read the announcement". */
   linkLabel?: string;
 }
 
