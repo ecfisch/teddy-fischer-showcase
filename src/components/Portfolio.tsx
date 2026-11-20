@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { projects } from '@/lib/data';
 import { Button } from '@/components/ui/button';
-import { ArrowUpRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const categories = ['All', ...Array.from(new Set(projects.map(p => p.category)))];
@@ -43,28 +42,48 @@ const PortfolioSection = () => {
             <div 
               key={project.id} 
               className={cn(
-                "bg-card border rounded-xl overflow-hidden shadow-sm card-hover",
+                "group relative bg-card border rounded-xl overflow-hidden shadow-sm card-hover",
                 "animate-slide-up",
-                index % 2 === 1 && "[animation-delay:0.2s]"
+                index % 2 === 1 && "[animation-delay:0.2s]",
+                // Keyboard focus lands on the title link, so show the focus ring on the whole card.
+                project.link && "has-[a:focus-visible]:ring-2 has-[a:focus-visible]:ring-primary has-[a:focus-visible]:ring-offset-2 has-[a:focus-visible]:ring-offset-background"
               )}
             >
               <div className="h-60 overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-full object-cover object-top transition-transform hover:scale-105"
+                  className="w-full h-full object-cover object-top transition-transform group-hover:scale-105"
                 />
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold text-card-foreground">{project.title}</h3>
+                  <h3 className="text-xl font-semibold text-card-foreground">
+                    {project.link ? (
+                      // The link's ::after covers the card, so the whole card is clickable
+                      // while screen readers still get one link named by the title.
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="after:absolute after:inset-0 focus:outline-none"
+                      >
+                        {project.title}
+                        <span className="sr-only">
+                          {`, ${project.linkLabel ?? 'Read the announcement'}, opens in a new tab`}
+                        </span>
+                      </a>
+                    ) : (
+                      project.title
+                    )}
+                  </h3>
                   <span className="text-xs bg-secondary px-3 py-1 rounded-full text-secondary-foreground">
                     {project.category}
                   </span>
                 </div>
                 <p className="text-muted-foreground mb-4">{project.description}</p>
                 
-                <div className="flex flex-wrap gap-2 mb-5">
+                <div className="flex flex-wrap gap-2">
                   {project.tools.map((tool, i) => (
                     <span 
                       key={i} 
@@ -74,19 +93,6 @@ const PortfolioSection = () => {
                     </span>
                   ))}
                 </div>
-                
-                {project.link && (
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
-                  >
-                    {project.linkLabel ?? 'Read the announcement'}
-                    <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-                    <span className="sr-only"> for {project.title} (opens in a new tab)</span>
-                  </a>
-                )}
               </div>
             </div>
           ))}
