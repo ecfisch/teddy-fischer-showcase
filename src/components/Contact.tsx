@@ -30,7 +30,11 @@ const ContactSection = () => {
           <div 
             className="calendly-inline-widget" 
             data-url="https://calendly.com/teddyfischer/15-minute-intro-with-teddy" 
-            style={{ minWidth: '320px', height: '900px' }} // Adjusted height for Calendly
+            // Calendly resizes the embed to fit its content, so no inner scrollbar appears.
+            data-resize="true"
+            // Starting height, and the fallback if auto-resize does not run. Tall enough for
+            // the single-column layout this container width gets, including six-week months.
+            style={{ minWidth: '320px', height: '1050px' }}
           ></div>
         </div>
 
