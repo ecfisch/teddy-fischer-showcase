@@ -23,7 +23,7 @@ export const projects: Project[] = [
   {
     id: "project-5",
     title: "Page Vault Review",
-    description: "Thorough capture is the right call, but it produces thousands of pages. Review uses AI to surface the pages that matter to a case, then lets legal teams mark, redact, and export them. I owned it from discovery and pricing through launch, and wrote much of the v2 code.",
+    description: "Thorough capture is the right call, but it produces thousands of pages. Review takes legal teams from preservation to evidence: its AI identifies the specific passages to produce, with search, contextual ranking, and image analysis built for large caseloads. I took it from discovery and pricing through launch, and built much of v2 myself.",
     image: "/page-vault-review.png",
     category: "AI Product",
     tools: ["Customer Discovery", "Pricing & Packaging", "LLM Features", "Go-to-Market"],
@@ -32,7 +32,7 @@ export const projects: Project[] = [
   {
     id: "project-6",
     title: "Capture Browser Redesign",
-    description: "The browser is where customers do their daily work, so we tested prototypes with users before building. Most users switched and stayed, and we retired the legacy browser a few months later.",
+    description: "The browser is where customers do their daily work, so we tested prototypes with users before building. Fewer than 10% of users switched back, which let us retire the legacy browser for all customers without incident.",
     image: "/page-vault-browser-redesign.png",
     category: "Product Feature",
     tools: ["Usability Testing", "Prototyping", "Product Analytics", "Migration"],
@@ -95,8 +95,8 @@ export const skills: SkillCategory[] = [
       "Product Analytics",
       "SQL",
       "AI-Native Development",
-      "LLM Feature Design",
-      "API Design & Integration"
+      "LLM Feature Design & Testing",
+      "GraphQL & REST APIs"
     ]
   },
   {
@@ -126,19 +126,19 @@ export const workExperience = [
     title: "Senior Product Manager",
     company: "Page Vault",
     period: "",
-    description: "Own Page Vault Review, an AI evidence review product, from discovery and pricing through launch. I also ship much of the product myself as a hands-on product engineer."
+    description: "Build and ship products across the Page Vault platform: the capture browser, usage reporting, and Review, an AI evidence review tool I took from discovery to launch. I work as a hands-on product engineer, shipping production code alongside discovery, pricing, and launches."
   },
   {
     title: "Product Manager",
     company: "LaunchNotes",
     period: "",
-    description: "Sole PM, owned product from roadmap to launch across integrations and core features."
+    description: "First product hire. Took features from roadmap to launch across integrations, self-serve, and core product."
   },
   {
     title: "Product Manager",
     company: "POWR",
     period: "",
-    description: "Led growth and retention initiatives, improving conversion rates and reducing churn."
+    description: "First PM hired by the product leader. Ran growth experiments that raised activation 2.3x and grew a core product line's MRR by 50%."
   },
   {
     title: "Project Manager",

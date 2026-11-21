@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div className="mb-16 text-center">
           <h2 className="section-title">About Me</h2>
           <p className="section-subtitle mx-auto">
-            10+ years in B2B SaaS | Own products from discovery to launch | Now shipping code with AI-native tooling
+            10 years in B2B SaaS | Own products from discovery to launch | Now shipping code with AI-native tooling
           </p>
         </div>
         
@@ -25,7 +25,7 @@ const AboutSection = () => {
           <div className="animate-slide-up [animation-delay:0.2s]">
             <h3 className="text-2xl font-display font-semibold mb-4">What I Do</h3>
             <p>
-              I help teams focus on the right problems and build thoughtful solutions, fast enough to learn and solid enough to scale. Lately that includes writing the code myself.
+              I help teams focus on the right problems and build thoughtful solutions, fast enough to learn and solid enough to scale. Lately that includes shipping the code myself.
             </p>
           </div>
         </div>
